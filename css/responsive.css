@@ -1,0 +1,794 @@
+/* ============================== 
+    MEDIA QUERIES -- RESPONSIVE
+================================*/
+
+/* LARGE DEVICES  > 1200px */
+@media (min-width: 1200px) {
+
+}
+
+/* MEDIUM DEVICES > 992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* NAVBAR  */
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    /* ABOUT SECTION */
+    .about-item {
+        padding: 60px 30px;
+    }
+    
+    /* HOME SECTION */
+    .home-header h1 {
+        font-size: 2rem;
+    }
+
+    .home-text p {
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+
+    /* OPINIONS SECTION */
+    .opinions .vertical-text-degree {
+        top: 45px;
+    }
+
+    /* SERVICES SECTION */
+
+    #team-members {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .service-info {
+        height: 450px!important;
+    }
+
+    .service-tabs img {
+        height: 450px;
+    }
+
+    .service-info h2 {
+        margin-bottom: 1rem; 
+    }
+
+    span.pln {
+        right: -12px;
+    }
+
+    .offers li {
+        font-size: 14px;
+    }
+
+    .offers li i {
+        font-size: 20px;
+    }
+
+    /* STATS SECTION */
+    .single-stats {
+        padding: 20px 20px;
+    }
+
+    /* BACK TO TOP ARROW */
+    .btn-back-to-top {
+        font-size: 20px;
+    }
+}
+
+/* SMALL DEVICES > 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ALL OF THIS */
+    .box-content {
+        padding: 4rem 0;
+    }
+
+    /* NAVBAR SECTION */
+    .navbar {
+        background: #fff;
+        padding: 10px 20px;
+    }
+
+    .navbar-brand {
+        color: #212226!important;
+    }
+
+    .nav-link {
+        color: #212226!important;
+    }
+    
+    .navbar-toggler {
+        background-color: #70c1b3;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    /* HEADER SECTION */
+    .home-header h1 {
+        font-size: 2.1rem;
+    }
+
+    .home-text p {
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+
+    /* ABOUT SECTION */
+
+    #about .vertical-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vertical-text-title {
+        margin-left: 0;
+    }
+
+    .vertical-text-degree {
+        left: 180px;
+    }
+
+    .about-1-right {
+        margin-top: 4rem;
+    }
+
+    .about-1-right p:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .about-us-info {
+        padding: 60px 0;
+    }
+
+    .about-item {
+        width: 90%;
+        margin: 0 auto 2rem auto;
+        padding: 60px 40px;
+    }
+
+    .about-item hr {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    /* TEAM SECTION */
+
+    #team .vertical-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    #team .vertical-text .vertical-text-title {
+        margin-left: 0;
+    }
+
+    #team .vertical-text .vertical-text-degree {
+        left: 170px;
+        top: 23px;
+    }
+
+    .vertical-paragraph {
+        margin-left: 0;
+        margin: 1rem 0;
+    }
+
+    /* STATEMENTS SECTION */
+    .statement-description {
+        font-size: 1.2rem;
+    }
+
+    .statement-author {
+        font-size: 1rem;
+    }
+
+    /* SERVICES SECTION */
+    .horizontal-text {
+        margin-bottom: 2rem;
+    }
+
+    /* SERVICES TABS */
+
+    .r-tabs-accordion-title {
+        text-align: center;
+        display: inline;
+    }
+
+    .r-tabs-anchor {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .r-tabs-state-active a {
+        color: #70c1b3;
+        text-decoration: none;
+      }
+
+      .service-tabs img {
+          width: 100%;
+      }
+
+      .service-button .btn-service {
+          color: white;
+      }
+
+      /* OUR WORKS SECTION */
+      .ourworks .vertical-text {
+        display: flex;
+        justify-content: center;
+      }
+
+      .ourworks .vertical-text-degree {
+          left: 155px;
+          top: 25px;
+      }
+
+      .ourworks .vertical-text-title {
+          margin: 0;
+      }
+
+      .ourworks .col-md-6 {
+          margin: 0;
+          padding: 0;
+      }
+
+      /* OPINIONS SECTION */
+      .opinions .vertical-text {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2.5rem;
+      }
+
+      .opinions .vertical-text-degree {
+          left: 155px;
+      }
+
+      .opinions .vertical-text-title {
+          margin: 0;
+      }
+
+      /* PRICE SECTION */
+
+      .price-table {
+          width: 70%;
+          margin: 0 auto 40px auto;
+      }
+
+      .price-table h3 {
+          font-size: 2rem;
+      }
+
+      span.pln {
+          left: 60px;
+      }
+
+      .best-price .btn-service {
+          color: #70c1b3;
+      }
+
+      /* STATS SECTION */
+
+      .stats .vertical-text {
+        display: flex;
+        justify-content: center;
+          margin-bottom: 1rem;
+      }
+      .stats .vertical-text-title {
+          text-align: left;
+      }
+      
+      .stats .vertical-text-degree {
+            left: 110px;
+      }
+
+      .stats-text p {
+          letter-spacing: 0;
+          line-height: 20px;
+      }
+
+      /* CONTACT SECTION */
+      .contact .vertical-text {
+          display: flex;
+          justify-content: center;
+      }
+
+      .contact .vertical-text-degree {
+          left: 165px;
+      }
+
+      .contact__form {
+          margin-top: 2rem;
+      }
+
+      /* BACK TO TOP */
+      .btn-back-to-top {
+          font-size: 15px;
+          padding: 3px 7px;
+          color: white!important;
+      }
+
+
+}
+
+/* VERY SMALL DEVICES > 576px  */
+@media (min-width: 576px) and (max-width: 767px) {
+/* ALL OF THIS */
+.box-content {
+    padding: 4rem 0;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #212226!important;
+}
+
+.nav-link {
+    color: #212226!important;
+}
+
+.navbar-toggler {
+    background-color: #70c1b3;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/* HEADER SECTION */
+.home-header h1 {
+    font-size: 2rem;
+}
+
+.home-text p {
+    font-size: 13px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#arrow-down {
+    display: none;
+}
+
+/* ABOUT SECTION */
+
+.vertical-text {
+    margin-bottom: 3rem;
+}
+
+.about-us-info {
+    padding: 50px 0;
+}
+
+.about-item {
+    margin-bottom: 2rem;
+}
+
+/* TEAM SECTION */
+
+#team .vertical-text {
+    margin-bottom: 2rem;
+}
+#team p.vertical-paragraph {
+    margin-left: 1rem;
+}
+
+.progress-item .col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.skill1 h3, .skill2 h3, .skill3 h3, .skill4 h3 {
+    margin: 1rem 0 5px 0;
+}
+
+/* STATEMENT SECTION */
+
+.statement-description {
+    font-size: 18px;
+}
+
+.statement-author {
+    font-size: 14px;
+}
+
+/* SERVICES SECTION */
+#service .box-content-2 {
+    padding: 50px 0;
+}
+
+#service .horizontal-text {
+    margin-bottom: 1.5rem;
+}
+
+#service .icon {
+    text-align: left!important;
+    margin-bottom: .5rem;
+    color: #70c1b3;
+}
+
+/* SERVICES RESPOSNSIVE TABS SECTION */
+
+.r-tabs-accordion-title {
+    text-align: center;
+    display: inline;
+}
+
+.r-tabs-anchor {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+.r-tabs-state-active a {
+    color: #70c1b3;
+    text-decoration: none;
+  }
+
+  .service-tabs img {
+      width: 100%;
+  }
+
+  .service-button .btn-service {
+      color: white;
+  }
+
+  /* PORTFOLIO SECTION */
+  .isotope-filter .btn-general {
+      padding: .5rem 1rem;
+  }
+
+  /* PRICING SECTION */
+  .price-table {
+      width: 70%;
+      margin: 1rem auto;
+  }
+
+  span.pln {
+      left: 50px;
+  }
+
+  .best-price .btn-service {
+      color: #70c1b3!important;
+  }
+
+  /* CONTACT SECTION */
+  .contact__address {
+      margin: 2rem 0;
+  } 
+
+  /* BACK TO TOP BUTTON */ 
+  .btn-back-to-top {
+      font-size: 15px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 575px) {
+/* ALL OF THIS */
+.box-content {
+    padding: 4rem 0;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #212226!important;
+}
+
+.nav-link {
+    color: #212226!important;
+}
+
+.navbar-toggler {
+    background-color: #70c1b3;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/* HEADER SECTION */
+.home-header h1 {
+    font-size: 2rem;
+}
+
+.home-text p {
+    font-size: 12px;
+    width: 90%;
+    margin: .5rem auto;
+}
+
+#arrow-down {
+    display: none;
+}
+
+/* ABOUT SECTION */
+
+#about .vertical-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#about .vertical-text-title {
+    margin-left: -10px;
+    font-size: 1.8rem;
+}
+
+#about .vertical-text-degree {
+    left: 10px;
+    font-size: .8rem;
+}
+
+.about-us-info {
+    padding: 50px 0;
+}
+
+.about-item {
+    margin-bottom: 2rem;
+    padding: 50px 20px;
+}
+
+/* TEAM SECTION */
+
+#team .vertical-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#team .vertical-text-title {
+    margin-left: -10px;
+    font-size: 1.8rem;
+}
+
+#team .vertical-text-degree {
+    left: 5px;
+    font-size: .8rem;
+}
+
+#team p.vertical-paragraph {
+    margin-left: 1rem;
+}
+
+.progress-item .col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.skill1 h3, .skill2 h3, .skill3 h3, .skill4 h3 {
+    margin: 1rem 0 5px 0;
+}
+
+/* STATEMENT SECTION */
+
+.statement-description {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.statement-description i {
+    margin: 5px 15px;
+}
+
+.statement-author {
+    font-size: 10px;
+}
+
+/* SERVICES SECTION */
+#service .box-content-2 {
+    padding: 50px 0;
+}
+
+#service .horizontal-text {
+    margin-bottom: 1.5rem;
+}
+
+#service .horizontal-text-title {
+    font-size: 1.8rem;
+}
+
+#service .horizontal-text-subtitle {
+    font-size: .8rem;
+}
+
+#service .service-img {
+    margin-bottom: 1rem;
+}
+
+#service .icon {
+    text-align: left!important;
+    margin-bottom: .5rem;
+    color: #70c1b3;
+}
+
+.service {
+    margin: 15px 0;
+}
+
+/* SERVICES RESPOSNSIVE TABS SECTION */
+.service-tabs {
+    padding: 40px 0;
+}
+
+.service-tabs img {
+    height: 200px;
+  }
+
+.service-info {
+    padding: 25px 30px;
+}
+
+.r-tabs-accordion-title {
+    text-align: center;
+    display: inline;
+}
+
+.r-tabs-anchor {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+.r-tabs-state-active a {
+    color: #70c1b3;
+    text-decoration: none;
+  }
+
+  .service-tabs img {
+      width: 100%;
+  }
+
+  .service-button .btn-service {
+      color: white;
+  }
+
+  /* WORKS */
+  #works .vertical-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#works .vertical-text-title {
+    margin-left: 8px;
+    font-size: 1.8rem;
+}
+
+#works .vertical-text-degree {
+    left: 0;
+    font-size: .8rem;
+}
+  /* PORTFOLIO SECTION */
+  .isotope-filter .btn-general {
+      padding: .5rem .2rem;
+      font-weight: 500;
+      font-size: 10px;
+  }
+
+  /* OPINIONS */
+
+  .opinions .vertical-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.opinions .vertical-text-title {
+    margin-left: 5px;
+    font-size: 1.8rem;
+}
+
+.opinions .vertical-text-degree {
+    left: 0px;
+    font-size: .8rem;
+}
+
+.author img {
+    height: 80px;
+    width: 80px!important;
+}
+  /* PRICING SECTION */
+  #price .horizontal-text {
+    margin-bottom: 1.5rem;
+}
+
+#price .horizontal-text-title {
+    font-size: 1.8rem;
+}
+
+#price .horizontal-text-subtitle {
+    font-size: .8rem;
+}
+  
+  .price-table {
+      /* width: 90%; */
+      margin: 2rem .1rem;
+  }
+
+  .offers {
+      margin-left: 0;
+      font-size: 16px;
+  }
+
+  span.pln {
+      left: 50px;
+  }
+
+  .best-price .btn-service {
+      color: #70c1b3!important;
+  }
+
+  /* STATS SECTION */
+
+  .stats .vertical-text {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 1rem; */
+}
+
+.stats .vertical-text-title {
+    margin-left: 50px;
+    font-size: 1.8rem;
+}
+
+.stats .vertical-text-degree {
+    left: 0px;
+    top: 40px;
+    font-size: .8rem;
+}
+
+/* HAPPY CLIENTS */
+.happy_clients .horizontal-text {
+    margin-bottom: 1.5rem;
+}
+
+.happy_clients .horizontal-text-title {
+    font-size: 1.8rem;
+}
+
+.happy_clients .horizontal-text-subtitle {
+    font-size: .8rem;
+}
+
+
+  /* CONTACT SECTION */
+
+  #contact .vertical-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#contact .vertical-text-title {
+    margin-left: 8px;
+    font-size: 1.8rem;
+}
+
+#contact .vertical-text-degree {
+    left: 0;
+    font-size: .8rem;
+}
+  .contact__address {
+      margin: 2rem 0;
+  } 
+
+  /* BACK TO TOP BUTTON */ 
+  .btn-back-to-top {
+      font-size: 10px;
+      padding: 3px 7px;
+  }
+}
