@@ -1,3 +1,3 @@
 # Photography-website
 DEMO: https://skowronpatryk.github.io/Photography-website/index.html
-!!!! Ze względu na brak optymalizacji proces ładowania może trochę trwać !!!!
+<br>!!!! Ze względu na brak optymalizacji proces ładowania może trochę trwać !!!!
